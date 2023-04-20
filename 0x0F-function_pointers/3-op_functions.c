@@ -15,61 +15,45 @@ int op_add(int a, int b)
 }
 
 /**
- * op_sub - difference between two numbers
- * @a: first integer
- * @b: second integer
- * Return: difference (integer)
+ * op_sub - subtract
+ * @a: integer
+ * @b: integer
+ * Return: result
  */
-
 int op_sub(int a, int b)
 {
 	return (a - b);
 }
 
 /**
- * op_mul - product of two numbers
- * @a: first integer
- * @b: second integer
- * Return: product (integer)
+ * op_mul - multiply
+ * @a: integer
+ * @b: integer
+ * Return: result
  */
-
 int op_mul(int a, int b)
 {
 	return (a * b);
 }
 
 /**
- * op_div - Returns the division of two numbers.
- * @a: The first number.
- * @b: The second number.
- *
- * Return: The quotient of a and b.
+ * op_div - divide
+ * @a: integer
+ * @b: integer
+ * Return: result
  */
-
 int op_div(int a, int b)
 {
-	if (b == 0)
-	{
-		printf("Error\n");
-		exit(100);
-	}
 	return (a / b);
 }
 
 /**
- * op_mod - Returns the remainder of the division of two numbers.
- * @a: The first number.
- * @b: The second number.
- *
- * Return: The remainder of the division of a by b.
+ * op_mod - modulus for remainder
+ * @a: integer
+ * @b: integer
+ * Return: result
  */
-
 int op_mod(int a, int b)
 {
-	if (b == 0)
-	{
-		printf("Error\n");
-		exit(100);
-	}
 	return (a % b);
 }
